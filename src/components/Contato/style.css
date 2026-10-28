@@ -1,0 +1,7 @@
+.link-footer {
+  transition: transform 0.5s ease !important;
+}
+
+.link-footer:hover {
+  transform: scale(1.1) !important;
+}
