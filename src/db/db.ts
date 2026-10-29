@@ -20,8 +20,8 @@ export const itensDoMenu: ILink[] = [
 ];
 
 export const infoProjetosComercial: IInfoProjeto[] = [
-    {icone: "fa-regular fa-folder fa-2xl icon-geral", titulo: "3", texto:"projetoscomerciaisprojetosentregue"},
-    {icone: "fa-solid fa-code fa-2xl icon-geral", titulo: "Full Stack", texto:"atuacao"}
+    {icone: "fa-regular fa-folder fa-2xl", titulo: "3", texto:"projetoscomerciaisprojetosentregue"},
+    {icone: "fa-solid fa-code fa-2xl", titulo: "Full Stack", texto:"atuacao"}
 ];
 
 /** Itens da Stack atual*/

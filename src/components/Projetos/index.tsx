@@ -24,7 +24,7 @@ export default function Projetos(props: IProjetos){
                     <p>{t(props.texto)}</p>
                 </div>
                 <div className="col-12 col-lg-6 d-flex justify-content-center justify-content-lg-end">
-                    <div className="border d-flex py-3">
+                    <div className="border d-flex py-3 bg-dark-green text-white">
                         {props.listaDeInfos.map((item) => {
                            return item === props.listaDeInfos[props.listaDeInfos.length - 1] ? 
                                  <div className="w-50 p-3 d-flex flex-column justify-content-evenly align-items-center">
