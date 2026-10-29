@@ -10,3 +10,7 @@ h6 {
 .cursor-click {
   cursor: pointer;
 }
+
+.bg-dark-green {
+  background-color: #002820 !important;
+}

@@ -10,7 +10,7 @@ interface IContato{
 export default function Contato(props: IContato){
     const { t } = useTranslation();
     return(
-        <div id="contato" className="container-fluid py-5 text-white bg-dark-blue">
+        <div id="contato" className="container-fluid py-5 text-white bg-dark-green">
         <div className="row justify-content-center">
             <div className="col-11 align-self-start">
                 <h2><strong>{t("titulocontato")}</strong></h2>

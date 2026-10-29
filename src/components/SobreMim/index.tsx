@@ -5,7 +5,7 @@ export default function SobreMim(){
     const { t } = useTranslation();
 
     return(
-        <div id="sobremim" className="container-fluid py-5 bg-dark-blue text-white">
+        <div id="sobremim" className="container-fluid py-5 bg-dark-green text-white">
         <div className="row justify-content-center">
             <div className="col-11 col-md-5">
                 <small><strong className="text-uppercase fontTimes">{t('textosobremim')}</strong></small>
